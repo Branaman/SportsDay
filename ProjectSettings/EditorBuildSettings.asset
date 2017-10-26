@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainNav.unity
     guid: c5b3aa090f744504b959adcb68607fc5
   - enabled: 1
+    path: Assets/Scenes/ShootingGallery.unity
+    guid: d624b953d85914ca8996131c599fb683
+  - enabled: 0
     path: Assets/Scenes/test1.unity
     guid: e85266cdc27b3a04aa744ffe3af2eed6
   - enabled: 1
