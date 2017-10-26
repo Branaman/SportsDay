@@ -12,7 +12,7 @@ namespace CompleteProject
         Vector3 offset;                     // The initial offset from the target.
 
 
-        void Start ()
+        void Awake ()
         {
             // Calculate the initial offset.
             offset = transform.position - target.position;

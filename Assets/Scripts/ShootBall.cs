@@ -22,7 +22,7 @@ public class ShootBall : MonoBehaviour {
 		if( Input.GetKeyDown(KeyCode.Q)) {
 			// quit Scene and return to world map...
 			print("I want to leave game!");
-			SceneManager.LoadScene(level);
+            Application.Quit();
 
 		}
 	}
