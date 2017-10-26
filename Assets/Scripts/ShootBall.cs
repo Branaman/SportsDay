@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShootBall : MonoBehaviour {
 	public GameObject bullet;
 	public Transform shootPoint;
+	public string level;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +21,8 @@ public class ShootBall : MonoBehaviour {
 
 		if( Input.GetKeyDown(KeyCode.Q)) {
 			// quit Scene and return to world map...
+			print("I want to leave game!");
+			SceneManager.LoadScene(level);
 
 		}
 	}
