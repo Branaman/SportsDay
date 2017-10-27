@@ -1874,6 +1874,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114197529876465588, guid: 33d36d3b54384df44a2aaf4f7a25722c,
+        type: 2}
+      propertyPath: levelToLoad
+      value: Balls
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33d36d3b54384df44a2aaf4f7a25722c, type: 2}
   m_IsPrefabParent: 0

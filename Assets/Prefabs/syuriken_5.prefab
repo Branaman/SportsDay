@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 54203744173247148}
   - component: {fileID: 65298901370748492}
   - component: {fileID: 114939817467990116}
-  - component: {fileID: 114583814888435796}
   m_Layer: 0
   m_Name: syuriken_5
   m_TagString: Star
@@ -108,25 +107,12 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1363743499877224}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.039031908, y: 0.038584102, z: 0.0025708943}
   m_Center: {x: 0.00028123896, y: 0.00036855874, z: -2.6187678e-18}
---- !u!114 &114583814888435796
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1363743499877224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4fb39e28c86b0a4a83d4075b2380f58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torque: 50
-  rb: {fileID: 54203744173247148}
 --- !u!114 &114939817467990116
 MonoBehaviour:
   m_ObjectHideFlags: 1
