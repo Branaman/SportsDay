@@ -7,7 +7,6 @@ public class ShootBall : MonoBehaviour {
 	public GameObject bullet;
 	public Transform shootPoint;
 	public string level;
-
 	// Use this for initialization
 	void Start () {
 		
